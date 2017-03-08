@@ -3,7 +3,7 @@
   "description": "Lirc plugin for Pimatic",
   "author": "Anton Delitsch <anton@trugen.net>",
   "main": "lirc",
-  "license": "GPLv2",
+  "license": "GPL-2.0",
   "files": [
     "lirc.coffee",
     "README.md",
@@ -16,6 +16,19 @@
     "type": "git",
     "url": "git://github.com/pimatic/pimatic-lirc.git"
   },
+  "bugs": {
+    "url": "https://github.com/mwittig/pimatic-denon-avr/issues"
+  },
+  "maintainers": [
+    {
+      "name": "Oliver Schneider",
+      "url": "https://sweetpi.de"
+    },
+    {
+      "name": "mwittig",
+      "url": "https://github.com/mwittig"
+    }
+  ],
   "configSchema": "lirc-config-schema.coffee",
   "dependencies": {
     "lirc_node": "git://github.com/alexbain/lirc_node.git",
