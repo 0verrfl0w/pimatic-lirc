@@ -1,7 +1,9 @@
-{ "name": "pimatic-lirc",
+{
+  "name": "pimatic-lirc",
   "description": "Lirc plugin for Pimatic",
   "author": "Anton Delitsch <anton@trugen.net>",
   "main": "lirc",
+  "license": "GPLv2",
   "files": [
     "lirc.coffee",
     "README.md",
@@ -12,17 +14,15 @@
   "homepage": "http://github.com/pimatic/pimatic",
   "repository": {
     "type": "git",
-    "url": "git://github.com/tester22/pimatic-lirc.git"
+    "url": "git://github.com/pimatic/pimatic-lirc.git"
   },
   "configSchema": "lirc-config-schema.coffee",
   "dependencies": {
-	"lirc_node": "git://github.com/markstickley/lirc_node.git",
-	"lodash": "^3.5.0",
-	"fs",
-	"os"
+    "lirc_node": "git://github.com/alexbain/lirc_node.git",
+    "lodash": "^4.17.4"
   },
   "peerDependencies": {
-    "pimatic": "0.8.*"
+    "pimatic": "0.9.*"
   },
   "engines": {
     "node": ">0.8.x",
